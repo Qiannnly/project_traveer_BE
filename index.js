@@ -36,9 +36,6 @@ const destinationsRouter = new DestinationsRouter(
 
 app.use(cors());
 app.use(express.json());
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
 
 app.use("/", validatorsRouter);
 app.use("/users", usersRouter);
