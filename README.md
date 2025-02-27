@@ -6,13 +6,14 @@ The backend of this app is built with Node.js, Express.js, Sequelize, and Postgr
 
 ## Steps
 
-Install and run PostgreSQL server
-Create database based on the following configurations:
-DB_USERNAME=travel_app
-DB_PASSWORD=null
-DB_NAME=travel_app
-DB_HOST = 127.0.0.1
-DB_DIALECT = postgres
+- Install and run PostgreSQL server
+- Create database based on the following configurations:
+
+- DB_USERNAME=travel_app
+- DB_PASSWORD=null
+- DB_NAME=travel_app
+- DB_HOST = 127.0.0.1
+- DB_DIALECT = postgres
 
 ### Install dependencies
 
